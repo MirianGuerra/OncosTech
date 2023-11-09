@@ -1,0 +1,67 @@
+/* Conteúdo do arquivo styles.css */
+body {
+  background: #FFF;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.container img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.place {
+  background: #fff;
+  border: 2px solid #7b199f;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.place h2 {
+  border-bottom: 1px dashed #7b199f;
+  margin: 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.imagem-perfil {
+  width: 140px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.image-texto {
+  width: 50px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  margin-right: 10px;
+}
+
+.place h3, .place p {
+  margin: 0;
+}
